@@ -1,7 +1,7 @@
 import "./App.css";
-import MessageBoard from "./components/MessageBoard";
+import { MessageBoard } from "./components/MessageBoard";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <MessageBoard />
@@ -10,3 +10,5 @@ function App() {
 }
 
 export default App;
+
+// rafc 
